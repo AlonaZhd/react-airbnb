@@ -1,0 +1,48 @@
+.contact__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__item {
+    display: flex;
+    gap: 20px;
+}
+
+.contact__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contact__row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__text {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.contact__sub-block {
+    display: flex;
+    gap: 20px;
+}
+
+.contact__sub-value {
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact__sub-value:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: black;
+}

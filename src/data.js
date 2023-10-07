@@ -1,0 +1,140 @@
+const data = {
+    listing_name: "Іст-Сайд Біл",
+    reviews_summary: {
+        average_rating: 4.9,
+        total_reviews: 190,
+    },
+    location: {
+        city: "Остін, Техас",
+        country: "Сполучені Штати",
+    },
+    superhost: true,
+
+    image: "https://picsum.photos/1000/1000",
+
+    price: {
+        original_price: 308,
+        discounted_price: 218,
+        currency: "$",
+        cleaning_fee: 90,
+        service_fee: 200,
+    },
+    availability: {
+        checkin_date: "9/6/2023",
+        checkout_date: "9/11/2023",
+    },
+
+    roomTypes: [
+        {
+            id: 5313,
+            type: "Deluxe Room",
+            pricePerNight: 300,
+            currency: "$",
+            capacity: 2,
+        },
+        {
+            id: 6264,
+            type: "Suite",
+            pricePerNight: 500,
+            currency: "$",
+            capacity: 4,
+        },
+        {
+            id: 7332,
+            type: "Presidential",
+            pricePerNight: 1000,
+            currency: "$",
+            capacity: 6,
+        },
+    ],
+
+    description:
+        "Насолоджуйтеся цим чистим, сучасним котеджем, розташованим у затишному, але зручному районі Центрально-Східного Остіна. Натхненний японськими чайними будинками, цей котедж на задньому дворі забезпечує легкий доступ до місць проведення SXSW, фестивалю ACL, центру міста, чудових ресторанів та громадського транспорту, а також пропонує спокійний відпочинок для відпочинку та зарядки.",
+
+    property_details: {
+        guests: 2,
+        bedrooms: 1,
+        beds: 1,
+        baths: 1,
+    },
+
+    neighborhood_info: "Район чарівний, веселий, безпечний і милий...",
+
+    amenities: {
+        hasPool: true,
+        hasGym: false,
+        hasFreeBreakfast: true,
+        hasFreeWiFi: true,
+        hasParking: false,
+        hasPetsAllowed: false,
+        hasAirportShuttle: true,
+        hasConciergeService: true,
+        hasRoomService: false,
+        hasChildFriendly: true,
+    },
+
+    contact_info: {
+        name: "Kerthy",
+        image: "https://picsum.photos/80/80",
+        response_rate: 100,
+        response_time: "Протягом години",
+        info: "Я кінорежисерка і телевізійний продюсер Остіна-Брукліна, якого можна знайти на велосипеді до Фермерського ринку...",
+        phone: "+123-456-7890",
+    },
+
+    additional_properties: {
+        house_rules:
+            "Паління та домашні тварини заборонені. Тиша з 22:00 до 7:00",
+        cancellation_policy:
+            "Гнучка політика скасування з повним поверненням коштів у разі скасування за 7 днів до заїзду.",
+        local_transportation:
+            "Громадські автобуси та таксі в межах пішої досяжності.",
+        host_languages: ["English", "Spanish"],
+        special_offers: "Знижка 10% при бронюванні від 7 ночей",
+        check_in_instructions:
+            "Час реєстрації - 15:00. Будь ласка, зв'яжіться з нами заздалегідь, повідомте орієнтовний час свого прибуття.",
+    },
+
+    guestReviews: [
+        {
+            guestName: "Alice Johnson",
+            rating: 5,
+            review: "Amazing experience! The staff was very friendly and the facilities were top-notch.",
+        },
+        {
+            guestName: "Bob Smith",
+            rating: 4,
+            review: "Great location and beautiful views. However, the prices at the restaurant were a bit high.",
+        },
+        {
+            guestName: "Eve Williams",
+            rating: 5,
+            review: "Absolutely loved the spa treatments. It was a relaxing and rejuvenating stay.",
+        },
+    ],
+
+    nearbyAttractions: [
+        {
+            id: 453,
+            name: "Crystal Clear Beach",
+            link: "www.test.com",
+        },
+        {
+            id: 741,
+            name: "Tropical Rainforest Hiking Trails",
+            link: "www.test.com",
+        },
+        {
+            id: 422,
+            name: "Island Waterfalls",
+            link: "www.test.com",
+        },
+        {
+            id: 876,
+            name: "Cultural Village Tours",
+            link: "www.test.com",
+        },
+    ],
+};
+
+export default data;

@@ -1,0 +1,21 @@
+.price__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.price__header {
+    display: flex;
+    gap: 20px;
+}
+
+.price__value {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.price__value--has-discount {
+    color: #6c757d;
+    text-decoration-line: line-through;
+}

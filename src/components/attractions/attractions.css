@@ -1,0 +1,10 @@
+.attractions__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.attractions__link {
+    text-decoration: none;
+    color: black;
+}
